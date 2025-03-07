@@ -1,0 +1,147 @@
+body {
+  font-family: 'Tangerine', serif;
+ 
+  header {
+    /*border: black solid 1px;*/
+    margin-top: 10px;
+    margin-bottom: 150px;
+  }
+  
+  main {
+    padding-left: 150px;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 50spx;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  
+  /* Colors Section*/
+  
+  .colors {
+    display: flex;
+  }
+  
+  .single-color {
+    margin: 5px;
+  }
+  
+  .color-label p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #black {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 150px;
+    border: solid white 1px;
+  }
+  
+  #white {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border: solid black 1px;
+  }
+  
+  #blue {
+    background-color: blue;
+    color: lightgrey;
+    width: 150px;
+    height: 150px;
+    border: solid lightgrey 1px;
+ }
+
+  #pink {
+    background-color: pink;
+    color: grey;
+    width: 150px;
+    height: 150px;
+    border: solid lightgrey 1px;
+}
+
+#mint {
+    background-color: #4fe0b0;
+    color: grey;
+    width: 150px;
+    height: 150px;
+    border: solid lightgrey 1px;
+}
+#biege {
+  background-color: beige;
+  color: gray;
+  width: 150px;
+  height: 150px;
+  border: solid lightgrey 1px;
+}
+  /* Fonts Section*/
+  
+  #font-name {
+    display: flex;
+  }
+  
+  .font-name {
+    width: 400px;
+    height: 40px;
+    border: solid black 1px;
+    margin: 10px;
+    background-color: black;
+    f
+
+  }
+  
+  .font-name p {
+    color: white;
+    margin-left: 4px;
+    font-size: larger;
+  }
+  
+  
+  
+  #font-example {
+    display: flex;
+    
+  }
+  
+  .font-example {
+    width: 400px;
+    height: 400px;
+    border: solid black 1px;
+    margin: 10px;
+    background-color: beige;
+    
+  }
+  
+  .font-example p {
+    width: 400px;
+    position: relative;
+    right: 0px;
+    bottom: 7px;
+    font-size: x-large;
+  }
+  .bold p {
+    font-style: italic;
+  }
+  
+  .text-styles h2 {
+    display: none;
+    color: red;
+  }
+  
+  footer {
+    margin-bottom: 150px;
+  }
